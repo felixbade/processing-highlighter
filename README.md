@@ -3,10 +3,10 @@ A JS syntax highlighter for the Processing language.
 
 ## Features
 - Uses the same [word lists](https://github.com/processing/processing/blob/master/java/keywords.txt) as the official Processing IDE
-- Uses the same colors as the official Processing IDE (from preferences.txt)
+- Uses the same colors as the official Processing IDE
 
 ## Bugs
-- Some character combinations get lost (so the highlighted code is different to the original)
+- Some character combinations get lost (this is bad: the highlighted code can be different than the original)
 - Block quotes don't work
 - Quoted strings don't work
 
