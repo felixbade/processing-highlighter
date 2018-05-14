@@ -2,7 +2,7 @@
 A JS syntax highlighter for the Processing language.
 
 ## Features
-- Uses the same [word lists](https://github.com/processing/processing/blob/master/java/keywords.txt) as the official Processing IDE
+- Uses the same [word list](https://github.com/processing/processing/blob/master/java/keywords.txt) as the official Processing IDE
 - Uses the same colors as the official Processing IDE
 
 ## Bugs
