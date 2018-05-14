@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Processing syntax highlighting</title>
+        <script src="processing-syntax-hilighter.js"></script>
+        <link rel="stylesheet" href="processing-syntax-hilighting.css" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Processing syntax highlighting demo</h1>
+            <pre class="processing-code">void setup() {
+  fullScreen();
+  pixelDensity(displayDensity());
+  frameRate(20);
+  float a = frameRate;
+  frameRate (20); // bug: should be blue
+
+  background(255);
+}
+
+void draw() {
+  float x = random(width);
+  float y = random(height);
+  float a = float(2); // z
+
+  /* block comments
+  don't work */
+
+  String s = "quoted strings don't work";
+
+  line(0, y, width, y); // horizontal width
+  line(x, 0, x, height); // vertical
+
+  // cover roughly the same area as the two lines
+  float sideLength = sqrt(width + height);
+  rect(x, y, sideLength, sideLength);
+}</pre>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+.processing-code-comment1 {
+    color: #777;
+}
+
+.processing-code-comment2 {
+    color: #777;
+}
+
+.processing-code-function1 {
+    color: #006699;
+}
+
+.processing-code-function2 {
+    color: #006699;
+}
+
+.processing-code-function3 {
+    color: #669900;
+}
+
+.processing-code-function4 {
+    color: #006699;
+    font-weight: bold;
+}
+
+.processing-code-invalid {
+    color: #666666;
+    font-weight: bold;
+}
+
+.processing-code-keyword1 {
+    color: #33997e;
+}
+
+.processing-code-keyword2 {
+    color: #33997e;
+}
+
+.processing-code-keyword3 {
+    color: #669900;
+}
+
+.processing-code-keyword4 {
+    color: #d94a7a;
+}
+
+.processing-code-keyword5 {
+    color: #e2661a;
+}
+
+.processing-code-keyword6 {
+    color: #33997e;
+}
+
+.processing-code-label {
+    color: #666666;
+    font-weight: bold;
+}
+
+.processing-code-literal1 {
+    color: #7D4793;
+}
+
+.processing-code-literal2 {
+    color: #718a62;
+}
+
+.processing-code-operator {
+    color: #006699;
+}

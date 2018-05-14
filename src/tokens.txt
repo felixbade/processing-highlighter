@@ -1,0 +1,65 @@
+/** Normal text token id. This should be used to mark normal text. */
+public static final byte NULL = 0;
+
+/** This can be used to mark a comment. */
+public static final byte COMMENT1 = 1;
+
+/** This can be used to mark a comment. */
+public static final byte COMMENT2 = 2;
+
+/** Strings in quotes */
+public static final byte LITERAL1 = 3;
+
+/** Constants (QUARTER_PI, CORNERS, etc.) */
+public static final byte LITERAL2 = 4;
+
+/**
+* Label token id. This can be used to mark labels
+* (eg, C mode uses this to mark ...: sequences)
+*/
+public static final byte LABEL = 5;
+
+/** Keywords (void, int, boolean, etc.) */
+public static final byte KEYWORD1 = 6;
+
+/** Fields [variables within a class] */
+public static final byte KEYWORD2 = 7;
+
+/** Loop/function-like blocks (for, while, etc.) */
+public static final byte KEYWORD3 = 8;
+
+/** Processing variables (width, height, focused, etc.) */
+public static final byte KEYWORD4 = 9;
+
+/** Datatypes (int, boolean, etc.) */
+public static final byte KEYWORD5 = 10;
+
+/** Keywords which can be followed by parenthesis */
+public static final byte KEYWORD6 = 11;
+
+/** Functions */
+public static final byte FUNCTION1 = 12;
+
+/** Methods (functions inside a class) */
+public static final byte FUNCTION2 = 13;
+
+/** Loop/function-like blocks (for, while, etc.) */
+public static final byte FUNCTION3 = 14;
+
+/** Built-in Processing functions (setup, draw, mouseDragged). */
+public static final byte FUNCTION4 = 15;
+
+/**
+* Operator token id. This can be used to mark an
+* operator. (eg, SQL mode marks +, -, etc with this
+* token type)
+*/
+public static final byte OPERATOR = 16;
+
+/**
+* Invalid token id. This can be used to mark invalid
+* or incomplete tokens, so the user can easily spot
+* syntax errors.
+*/
+public static final byte INVALID = 17;
+
